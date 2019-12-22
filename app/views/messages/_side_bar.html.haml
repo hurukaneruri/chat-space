@@ -1,0 +1,17 @@
+.side_bar
+  .side-header
+    .side-header__box
+      %p.user-name  masa
+      %ul.menu
+        %li.new-group
+        = link_to "#" do
+          =icon("fas","edit")
+        %li.edit-user
+        = link_to "#" do
+          =icon("fas","cog")
+  .groups
+    = link_to "#",class:"group" do
+      %p.group-name
+        techcamp
+      %p.latest-messege
+        まだメッセージがありません
